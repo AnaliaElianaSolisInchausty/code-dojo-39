@@ -28,6 +28,12 @@ class Song:
     def un_animal(self):
         return self.ultimo_verso(self.animals_for_song[0])
 
+    def reiniciar_posicion_funny_verse(self, funny_verse_position):
+        if funny_verse_position == len(self.funny_verses) - 1:
+            return 0
+        else:
+            return funny_verse_position + 1
+
     def multiples_animales(self):
         amount_of_animals = len(self.animals_for_song)
         final_song = ""
@@ -60,10 +66,7 @@ class Song:
                 else:
                     final_song += "\n" + self.middle_verse.format(animal, self.animals_for_song[position - 1])
                 final_song += "\n" + self.last_verse.format(self.animals_for_song[0])
-                if funny_verse_position == len(self.funny_verses) - 1:
-                    funny_verse_position = 0
-                else:
-                    funny_verse_position += 1
+                funny_verse_position = self.reiniciar_posicion_funny_verse(funny_verse_position)
         return final_song
         
 
