@@ -276,7 +276,7 @@
       <workItem from="1627996801952" duration="5202000" />
       <workItem from="1628015857268" duration="561000" />
       <workItem from="1628553696151" duration="336000" />
-      <workItem from="1628554047199" duration="5413000" />
+      <workItem from="1628554047199" duration="3487000" />
     </task>
     <servers />
   </component>
@@ -299,9 +299,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/song.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/python/test_song.py</url>
-          <line>121</line>
-          <option name="timeStamp" value="9" />
+          <line>85</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/song.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -311,15 +321,13 @@
       </configuration>
       <configuration name="PythonConfigurationType">
         <watch expression="singer.sing()" language="Python" />
-        <watch expression="SONG_WITH_THREE_ANIMALS" language="Python" />
+        <watch expression="SONG_WITH_TWO_ANIMALS" language="Python" />
         <watch expression="final_song" language="Python" />
-        <watch expression="position" language="Python" />
-        <watch expression="self.animals_for_song" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/code_dojo_39$test_song.coverage" NAME="test_song Coverage Results" MODIFIED="1628559115873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/code_dojo_39$test_song.coverage" NAME="test_song Coverage Results" MODIFIED="1628557398986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/code_dojo_39$song.coverage" NAME="song Coverage Results" MODIFIED="1628553998562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/code_dojo_39$Unittests_for_test_song_TestingSong_test_original_song_is_working.coverage" NAME="Unittests for test_song.TestingSong.test_original_song_is_working Coverage Results" MODIFIED="1628007207243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/code_dojo_39$Unittests_for_test_song_TestingSong.coverage" NAME="Unittests for test_song.TestingSong Coverage Results" MODIFIED="1628007640986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
